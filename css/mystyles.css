@@ -1,98 +1,24 @@
 body {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: blue;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    background-color: silver;
 }
 
-.page-container {
-    width: min(1100px, 95%);
-    margin: 30px auto 60px;
-    padding: 30px 28px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 18px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+li {
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace
 }
 
-h1 {
-    text-align: center;
-    margin-top: 0;
-    font-size: 2.6rem;
+.header{
+    color: black;
+    font-size: 30px;
 }
 
-.nav-links {
-    text-align: center;
-    margin-bottom: 24px;
+.footer{
+    color: black;
+    font-size: 15px;
 }
 
-.nav-links a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 12px;
-    padding: 10px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    border-radius: 999px;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-    transform: translateY(-1px);
-}
-
-.topics {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    gap: 26px;
-}
-
-.topics > li {
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 16px;
-    padding: 24px;
-}
-
-.topics > li strong {
-    display: block;
-    font-size: 1.35rem;
-    margin-bottom: 14px;
-}
-
-.topics ol {
-    margin: 0 0 18px;
-    padding-left: 1.35rem;
-}
-
-.topics li a {
-    color: #ffe;
-    text-decoration: underline;
-}
-
-.media-wrapper,
-.embed-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
-iframe,
-img,
-.embed-wrapper {
-    max-width: 100%;
-    border-radius: 14px;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    height: auto;
+.middle{
+    color: black;
+    font-size: 20px;
 }
