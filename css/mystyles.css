@@ -9,6 +9,7 @@ li {
 }
 
 .header{
+    position: stickyp;
     color: black;
     font-size: 30px;
 }
