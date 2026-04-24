@@ -10,9 +10,7 @@ li {
 
 .header {
     text-align:center;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
     color: black;
     font-size: 30px;
 }
