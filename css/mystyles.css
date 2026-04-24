@@ -9,7 +9,7 @@ li {
 }
 
 .header{
-  position: relative;
+  position: fixed;
   flex-direction: column;
   padding-bottom: 48px;
 }
